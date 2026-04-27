@@ -49,8 +49,7 @@ while True:  # Main game loop.
     print()
     print('    CHO (even) or HAN (odd)?')
 
-    # Let the player bet cho or han:
-    while True:
+    # Let the player bet cho or han:    while True:
         ##CHANGED INPUT TO INITALS
         bet = input('gds:').upper()
         if bet != 'CHO' and bet != 'HAN':
